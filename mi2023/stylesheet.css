@@ -36,3 +36,19 @@ ul {
     height: auto;
 }
 
+.grid-item img {
+    max-width: 400px;  /* or any percentage or fixed width as per your need */
+    height: auto;
+}
+
+.grid-item-link {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+
+
+
