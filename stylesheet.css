@@ -64,14 +64,21 @@
 }
 
 a {
-  color: #1772d0;
+  color: blue;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
-  text-decoration: none;
+  color: darkblue;
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  line-height: 1.6;
 }
 
 body,
@@ -82,16 +89,23 @@ p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 15px;
+  color: #333;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 15px;
+  font-weight: 700;
 }
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  display: block;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
 }
 
 papertitle {
@@ -128,4 +142,9 @@ name {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+/* Simple image styling */
+td img:not(.one img) {
+  border-radius: 4px;
 }
